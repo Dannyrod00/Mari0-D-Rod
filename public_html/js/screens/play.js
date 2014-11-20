@@ -9,7 +9,7 @@ game.PlayScreen = me.ScreenObject.extend({
         game.data.score = 0;
         me.levelDirector.loadLevel("levelD1");
 
-        this.resetPlayer();
+        this.resetPlayer(o,100);
 
         me.input.bindKey(me.input.KEY.RIGHT, "right");
 
@@ -24,11 +24,10 @@ game.PlayScreen = me.ScreenObject.extend({
         // remove the HUD from the game world
         me.game.world.removeChild(this.HUD);
     },
-    resetPlayer: function() {
-        var player = me.pool.pull("Mari0", 0, 100, {});
-        me.game.world.addChild(player, 3);
+    resetPlayer: function(x, y) {
+        var player = me.pool.pull("Mari0", x, y, {});
+        me.game.world.addChild(player, 5);
 
     }
 
 });
-//361
