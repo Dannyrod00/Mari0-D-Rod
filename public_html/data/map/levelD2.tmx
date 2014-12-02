@@ -9,22 +9,27 @@
  <tileset firstgid="234" name="meta-tiles" tilewidth="70" tileheight="70">
   <image source="../img/meta-tiles.png" width="350" height="70"/>
  </tileset>
- <layer name="Tile Layer 1" width="16" height="9">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgF1wjwiVUzECAZByZWXQgOPBkN41IHAGcKDjk=
-  </data>
- </layer>
  <layer name="collision" width="16" height="9" opacity="0.09">
   <properties>
    <property name="type" value="solid"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFQxm8w4GJVUepfgDDKxZR
+   eJxjYBie4B0aHq4A3Z+4/ItLHaX6AefmGgk=
   </data>
  </layer>
  <layer name="background" width="16" height="9" opacity="0.32">
   <data encoding="base64" compression="zlib">
    eJwLYWBgCBnFQxbjAsSqoxQAAFddJhE=
+  </data>
+ </layer>
+ <layer name="background 2" width="16" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAOJqNhUsFENExv/ZSCgXb/UNEPAAu8Eik=
+  </data>
+ </layer>
+ <layer name="Tile Layer 1" width="16" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAeqKJQTSUR+vGpQZZLRsP49F+D0jFIfB0GhgPIGJsaSkEFieo3o/HLGTD9ie5fGMClLgQHnoyGcakDACYdGKc=
   </data>
  </layer>
 </map>
