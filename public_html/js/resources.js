@@ -10,7 +10,9 @@ game.resources = [
         {name: "item-spritesheet", type:"image", src: "data/img/item-spritesheet.png"},
         
         
-        {name: "Mari0", type:"image", src: "data/img/player1.png"},
+//        {name: "Mari0", type:"image", src: "data/img/player1_1.png"},
+         {name: "Mari0", type:"image", src: "data/img/player2.png"},
+
         {name: "title-screen", type:"image", src: "data/img/title-screen.png"},
 	/* Atlases 
 	 * @example
@@ -24,7 +26,8 @@ game.resources = [
  	 */
         
         {name: "levelD1", type: "tmx", src: "data/map/levelD1.tmx"},
-        {name: "levelD2", type: "tmx", src: "data/map/levelD2.tmx"}
+        {name: "levelD2", type: "tmx", src: "data/map/levelD2.tmx"},
+        {name: "levelD3", type: "tmx", src: "data/map/levelD3.tmx"}
 
 	/* Background music. 
 	 * @example

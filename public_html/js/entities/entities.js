@@ -3,19 +3,19 @@ game.PlayerEntity = me.Entity.extend({
     init: function(x, y, settings) {
         this._super(me.Entity, 'init', [x, y, {
                 image: "mari0",
-                spritewidth: "128",
-                spriteheight: "128",
-                width: 128,
-                height: 128,
+                spritewidth: "64",
+                spriteheight: "64",
+                width: 64,
+                height: 64,
                 getShape: function() {
-                    return(new me.Rect(0, 0, 64, 128)).toPolygon();
+                    return(new me.Rect(0, 0, 30, 63)).toPolygon();
                 }
             }]);
         
-        
+//        143
 
-        this.renderable.addAnimation("idle", [3]);
-        this.renderable.addAnimation("smallWalk", [8, 9, 10, 11, 12, 13], 80);
+        this.renderable.addAnimation("idle", [16]);
+        this.renderable.addAnimation("smallWalk", [143, 145, 146, 147, 148, 149, 150, 151], 80);
 
         this.renderable.setCurrentAnimation("idle");
 
@@ -24,12 +24,38 @@ game.PlayerEntity = me.Entity.extend({
 
     },
     update: function(delta) {
+       
         if (me.input.isKeyPressed("right")) {
+            this.flipX(true);
             this.body.vel.x += this.body.accel.x * me.timer.tick;
-
+            if (!this.renderable.isCurrentAnimation("smallWalk")){
+                 this.renderable.setCurrentAnimation("smallWalk");
+             }
      
-        } else {
+        }
+        
+        else if (me.input.isKeyPressed('left')){
+            this.flipX(false);
+            this.body.vel.x += this.body.accel.x * me.timer.tick;
+            if (!this.renderable.isCurrentAnimation("smallWalk")){
+                 this.renderable.setCurrentAnimation("smallWalk");
+             }
+        }
+        
+        else {
             this.body.vel.x = 0;
+        }
+        
+        if (me.input.isKeyPressed('jump')) {
+            // make sure we are not already jumping or falling
+            if (!this.body.jumping && !this.body.falling) {
+                // set current vel to the maximum defined value
+                // gravity will then do the rest
+                this.body.vel.y = -this.body.maxVel.y * me.timer.tick;
+                // set the jumping flag
+                this.body.jumping = true;
+            }
+ 
         }
         
         this.body.update(delta);
