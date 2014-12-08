@@ -40,7 +40,7 @@ var game = {
 	// Run on game resources loaded.
 	"loaded" : function () {
                 me.pool.register("Mari0", game.PlayerEntity, true);
-                me.pool.register("levelTrigger", game.LevelTrigger);
+                me.pool.register("leveltrigger", game.LevelTrigger);
             
 		me.state.set(me.state.MENU, new game.TitleScreen());
 		me.state.set(me.state.PLAY, new game.PlayScreen());

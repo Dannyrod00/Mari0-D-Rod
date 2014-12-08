@@ -15,7 +15,7 @@ game.PlayerEntity = me.Entity.extend({
 //        143
 
         this.renderable.addAnimation("idle", [16]);
-        this.renderable.addAnimation("smallWalk", [143, 145, 146, 147, 148, 149, 150, 151], 80);
+        this.renderable.addAnimation("smallWalk",[143, 145, 146, 147, 148, 149, 150, 151], 80);
 
         this.renderable.setCurrentAnimation("idle");
 

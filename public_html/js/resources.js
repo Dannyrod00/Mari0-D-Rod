@@ -11,8 +11,10 @@ game.resources = [
         
         
 //        {name: "Mari0", type:"image", src: "data/img/player1_1.png"},
-         {name: "Mari0", type:"image", src: "data/img/player2.png"},
-
+//         {name: "Mari0", type:"image", src: "data/img/player2.png"},
+         {name: "Mari0", type:"image", src: "data/img/player1_1.png"},
+//        {name: "skele-boss", type:"image", src: "data/img/skeleton b.png"},
+//        {name: "skele-boxer", type:"image", src: "data/img/skelly fighter.png"},
         {name: "title-screen", type:"image", src: "data/img/title-screen.png"},
 	/* Atlases 
 	 * @example
