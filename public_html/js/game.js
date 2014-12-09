@@ -40,6 +40,8 @@ var game = {
 	// Run on game resources loaded.
 	"loaded" : function () {
                 me.pool.register("Mari0", game.PlayerEntity, true);
+                me.pool.register("BadGuy", game.BadGuy);
+                
                 me.pool.register("leveltrigger", game.LevelTrigger);
             
 		me.state.set(me.state.MENU, new game.TitleScreen());
@@ -49,3 +51,5 @@ var game = {
 		me.state.change(me.state.MENU);
 	}
 };
+
+

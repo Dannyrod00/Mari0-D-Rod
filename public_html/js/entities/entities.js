@@ -105,3 +105,24 @@ game.LevelTrigger = me.Entity.extend({
  }
     
 });
+
+game.BadGuy = me.Entity.extend({
+    init: function (x, y, settings){
+     this._super(me.Entity, 'init', [x, y, {
+                image: "skele-boxer",
+                spritewidth: "64",
+                spriteheight: "64",
+                width: 64,
+                height: 64,
+                getShape: function() {
+                    return(new me.Rect(0, 0, 30, 63)).toPolygon();
+                }
+            }]); 
+        
+    },    
+    
+    update:function(delta){
+        
+    }
+    
+});
