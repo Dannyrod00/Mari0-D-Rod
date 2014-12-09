@@ -34,4 +34,23 @@
    eJxjYBgFgwlMJhJ3oenrwKFuFFAX4ApnYvFIA5SEFbZ0PgoGFkQzUC89g8yaAMRtSJiaZpFrHi6zyDEPn1no5hFTtuAzi5LwGwVDA1BanqJjfGmJFAwDQ8E8dEBt8ygB9DCPWmFKDQwA+et4DQ==
   </data>
  </layer>
+ <objectgroup name="trigger-entites">
+  <object name="leveltrigger" x="1329.33" y="209.333" width="69.3333" height="140">
+   <properties>
+    <property name="level" value="extra"/>
+    <property name="xSpawn" value="400"/>
+    <property name="ySpawn" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="collision" width="20" height="40">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgwm8IxK/ZWBYgKwPyD+ATd0ooC7AFc7E4pEGKAkrbOl8FAwsAMZHArXSM8gsyl00fMyitGwZieXLSAOUpg/0dEKNNENr8yhN44TcN9Dhh8uttDKP0nRDzTIHAFv2hpE=
+  </data>
+ </layer>
+ <layer name="background2" width="20" height="40">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYBaOAdNAGxaPmIeTIwfQwbzABAJR7E+U=
+  </data>
+ </layer>
 </map>
