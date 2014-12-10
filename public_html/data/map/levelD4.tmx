@@ -31,7 +31,7 @@
  </layer>
  <layer name="Tile Layer 1" width="20" height="40">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgwlMJhJ3oenrwKFuFFAX4ApnYvFIA5SEFbZ0PgoGFkQzUC89g8yaAMRtSJiaZpFrHi6zyDEPn1no5hFTtuAzi5LwGwVDA1BanqJjfGmJFAwDQ8E8dEBt8ygB9DCPWmFKDQwA+et4DQ==
+   eJxjYBgF5AILKptnDsSTicRdaHo7cKgbBdQFuMKZWDzSACVhhS2dj4KBBdEM1EvPILMmAHEbEqamWeSah8sscszDZxa6ecSULfjMoiT8RsHQAJSWp+gYX1oiBcPAUDAPHVDbPEoAPcyjVphSAwMAy4J4fA==
   </data>
  </layer>
  <objectgroup name="trigger-entites">
@@ -43,7 +43,7 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="collision" width="20" height="40">
+ <layer name="collision" width="20" height="40" opacity="0.08">
   <data encoding="base64" compression="zlib">
    eJxjYBgFgwm8IxK/ZWBYgKwPyD+ATd0ooC7AFc7E4pEGKAkrbOl8FAwsAMZHArXSM8gsyl00fMyitGwZieXLSAOUpg/0dEKNNENr8yhN44TcN9Dhh8uttDKP0nRDzTIHAFv2hpE=
   </data>
@@ -53,4 +53,5 @@
    eJxjYBgFo2AUjIJRMApGwSgYBaOAdNAGxaPmIeTIwfQwbzABAJR7E+U=
   </data>
  </layer>
+ <objectgroup name="BadGuy"/>
 </map>
