@@ -8,10 +8,10 @@ game.resources = [
     {name: "background-tiles", type: "image", src: "data/img/background-tiles.png"},
     {name: "meta-tiles", type: "image", src: "data/img/meta-tiles.png"},
     {name: "item-spritesheet", type: "image", src: "data/img/item-spritesheet.png"},
-    {name: "Mari0", type: "image", src: "data/img/player2.png"},
+    {name: "Mari0", type: "image", src: "data/img/monk.png"},
 //         {name: "Mari0", type:"image", src: "data/img/player1_1.png"},
 //        {name: "skele-boss", type:"image", src: "data/img/skeleton b.png"},
-    {name: "skele-boxer", type: "image", src: "data/img/skelly fighter.png"},
+    {name: "orc", type: "image", src: "data/img/orc.png"},
     {name: "title-screen", type: "image", src: "data/img/title-screen.png"},
     /* Atlases 
      * @example
@@ -28,6 +28,7 @@ game.resources = [
     {name: "levelD2", type: "tmx", src: "data/map/levelD2.tmx"},
     {name: "levelD3", type: "tmx", src: "data/map/levelD3.tmx"},
     {name: "levelD4", type: "tmx", src: "data/map/levelD4.tmx"},
+    {name: "levelD4", type: "tmx", src: "data/map/levelD5.tmx"},
     {name: "levelD4", type: "tmx", src: "data/map/extra.tmx"}
 
   
@@ -35,7 +36,7 @@ game.resources = [
      * @example
      * {name: "example_bgm", type: "audio", src: "data/bgm/"},
      */
-
+//       {name: "B-music", type: "audio", src: "data/bgm/Static-Electric Beats (Original Mix).mp3"}
     /* Sound effects. 
      * @example
      * {name: "example_sfx", type: "audio", src: "data/sfx/"}

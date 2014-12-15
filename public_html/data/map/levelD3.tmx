@@ -53,7 +53,7 @@
   </data>
  </layer>
  <objectgroup name="trigger-entites">
-  <object x="421.333" y="558.667" width="276" height="69.3333">
+  <object name="LevelTrigger" x="421.333" y="558.667" width="276" height="69.3333">
    <properties>
     <property name="level" value="levelD4"/>
    </properties>

@@ -31,13 +31,20 @@
  </layer>
  <layer name="Tile Layer 1" width="20" height="40">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF5AILKptnDsSTicRdaHo7cKgbBdQFuMKZWDzSACVhhS2dj4KBBdEM1EvPILMmAHEbEqamWeSah8sscszDZxa6ecSULfjMoiT8RsHQAJSWp+gYX1oiBcPAUDAPHVDbPEoAPcyjVphSAwMAy4J4fA==
+   eJxjYBgF5AILKptnDsSTicRdaHo7cKgbBdQFuMKZWDzSACVhhS2dj4KBBdEM1EvPILMmAHEbEqamWeSah8sscszDZxa6ecSULfjMoiT8RsHQAJSWp+gYX1oiBcPAUDAPHVDbPEoAyDwrKptniUVssGAAI8V47w==
   </data>
  </layer>
  <objectgroup name="trigger-entites">
   <object name="leveltrigger" x="1329.33" y="209.333" width="69.3333" height="140">
    <properties>
     <property name="level" value="extra"/>
+    <property name="xSpawn" value="400"/>
+    <property name="ySpawn" value="0"/>
+   </properties>
+  </object>
+  <object name="leveltrigger" x="72" y="2590" width="64" height="142">
+   <properties>
+    <property name="level" value="levelBoss"/>
     <property name="xSpawn" value="400"/>
     <property name="ySpawn" value="0"/>
    </properties>

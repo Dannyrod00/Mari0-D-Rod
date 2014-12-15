@@ -50,5 +50,3 @@ var game = {
         me.state.change(me.state.MENU);
     }
 };
-
-
