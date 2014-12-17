@@ -122,7 +122,7 @@ game.BadGuy = me.Entity.extend({
         this.body.setVelocity(4, 6);
     },
     update: function(delta) {
-//        me.collision.check(this, true, this.collideHandler.bind(this), true);
+        me.collision.check(this, true, this.collideHandler.bind(this), true);
         
         if(this.alive){
             
@@ -133,10 +133,10 @@ game.BadGuy = me.Entity.extend({
         }
     else{
         me.game.world.removeChild(this);
-    }
+    };
     
-    this._super(me.Entity)
-    },
+    this._super(me.Entity);
+    }
     
     
 
